@@ -3,6 +3,12 @@ body {
     justify-content: center;
 }
 
+p {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 10px black;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -14,7 +20,13 @@ body {
 #mail {
     display: flex;
     flex-direction: column;
+    align-items: center;
     row-gap: 20px;
+    background-color: navajowhite;
+    border: 2px solid black;
+    border: ;
+    padding: 50px;
+    border-radius: 10px;
 }
 
 #dice {
@@ -22,4 +34,31 @@ body {
     flex-direction: column;
     row-gap: 20px;
     align-items: center;
+    background-color: navajowhite;
+    border: 2px solid black;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#dice h2,
+#mail h2 {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px black;
+}
+
+#dice > * {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 15px;
 }
