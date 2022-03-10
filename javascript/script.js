@@ -63,4 +63,3 @@ buttonDice.addEventListener("click", function () {
     result.innerHTML = winner;
 
 })
-
